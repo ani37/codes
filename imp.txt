@@ -1,0 +1,18 @@
+https://codeforces.com/problemset/problem/322/B //question is easy but test cases are strong like check for 3 5 5
+https://codeforces.com/contest/279/problem/C (Ladder) ://try again urself very good one 
+https://codeforces.com/problemset/problem/332/B (Maximum Absurdity) :/very nice dp problem
+https://codeforces.com/contest/505/problem/C (Mr. Kitayuta, the Treasure Hunter) A optimise dp problem ..try to understand the jumps length properly
+https://codeforces.com/problemset/problem/508/C (C. Anya and Ghosts) nice greedy problem
+https://codeforces.com/contest/1016/problem/D Easy but thinking matters here
+https://www.codechef.com/CORD2019/problems/CR197 cost and power minimum nice greedy approch check apower2
+//https://codeforces.com/contest/981/problem/D // AND problem 
+
+
+*lipshitz sequence 
+------------------
+Let  for i ≠ j.
+
+Key observation: it's sufficient to consider j = i + 1 when calculating the Lipschitz constant. It can be seen if you draw points (i, Ai) and lines between them on paper — the steepest lines must be between adjacent pairs of points.
+
+In order to prove it properly, we'll consider three numbers Ai, Aj, Ak (i < j < k) and show that one of the numbers L1(i, j), L1(j, k) is  ≥ L1(i, k). W.l.o.g., we may assume Ai ≤ Ak. There are 3 cases depending on the position of Aj relative to Ai, Ak
+to see prove https://codeforces.com/blog/entry/21755
