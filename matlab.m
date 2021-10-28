@@ -1,0 +1,12 @@
+clc;
+clear();
+n = 0:64;
+A = 1;
+del = 1;
+dels = 8;
+subplot(2,1,1);
+y1 = A* sin(2*pi + (del/dels)*n);
+plot(x,y1);
+xlabel('n');
+ylabel('y');
+title("SinusoidalWave1");

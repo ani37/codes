@@ -1,0 +1,5 @@
+1.https://www.codechef.com/problems/COOLCHEF
+Mistake Mo's algo: be carefull konsa array me laga re cross check kr lena sb array me.
+2.https://www.codechef.com/FFC12019/problems/DRCHE
+Mistake : Agar set ,proirity_queue me half krke insert kar rahe ho to yeh check kr lena ki greater than zero he ki nhi
+3. jbi bi kuch value ke liye check krne dia ho jarur check for 0
